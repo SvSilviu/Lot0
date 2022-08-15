@@ -33,12 +33,8 @@ public class Joc {
             if (verificareNumar(nou, numar) == false) {//verific daca in  nou nu exista numarul generat iar daca nu exista il adaug si cresc pozitia
 
                 nou[pozitie] = numar;
-
                 pozitie++;
-
             }
-
-
         }
 
         return nou;
@@ -112,15 +108,15 @@ public class Joc {
         return contor;
     }
 
-    public static void play(){
+    public static void play() {
 
-        int[]generare=generareNumere();
-        int[]introduse=introducereNumere();
-        int[]comune=returnareNumereComune(generare,introduse);
+        int[] generare = generareNumere();
+        int[] introduse = introducereNumere();
+        int[] comune = returnareNumereComune(generare, introduse);
         int contor = 0;
 
 
-        System.out.println("\nA-ti introdus");
+        System.out.println("\nAti introdus");
 
         afisare(introduse);
 
@@ -133,27 +129,27 @@ public class Joc {
         afisare(comune);
 
 
-        if(comune.length==3){
+        if (comune.length == 3) {
             System.out.println("Cu 3 numre castigati o plimbare cu capra");
-        }else if(comune.length==4){
+        } else if (comune.length == 4) {
             System.out.println("Cu 4 numere a-ti castigat 10 lei");
-        }else if (comune.length==5){
+        } else if (comune.length == 5) {
             System.out.println("Cu 5 numre schimbati loganul in BMW");
-        }else if (comune.length==6){
+        } else if (comune.length == 6) {
             System.out.println("Nu mai muncim toata viata");
         }
 
 
-
     }
-    public static void numereCastigatoare(int []a , int[]b){
+
+    public static void numereCastigatoare(int[] a, int[] b) {
         int contor = 0;
-       int[] generate = generareNumere();
-       int[] introduse = introducereNumere();
+        int[] generate = generareNumere();
+        int[] introduse = introducereNumere();
 
-       if(generate==introduse){
+        if (generate == introduse) {
 
-       }
+        }
     }
 }
 
