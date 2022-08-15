@@ -1,14 +1,15 @@
 package Loto;
 
-import java.util.Scanner;
-
 import static Loto.Joc.*;
 
 public class Main {
     public static void main(String[] args) {
 
+//
+//        int vector1[] = {12, 34, 54, 6, 56, 576};
+//        int vector2[] = {12, 34, 12, 45, 67, 56, 576};
 
-        int v[]={12,34,54,6,56,576};
+
 //        //Genrerare numar random
 //
 ////
@@ -19,13 +20,11 @@ public class Main {
 //        afisare(generareNumere());
 
 
-
 //        int []gen=generareNumere();
 ////
 //        afisare(gen);
 
 //        System.out.println(verificareNumar(v,34));
-
 
 
 //        //atribuirea de la tastatura
@@ -38,7 +37,15 @@ public class Main {
 //        System.out.println("A-ti introdus "+x);
 
 
-        introducereNumere();
+//        int[] v = returnareNumereComune(vector1, vector2);
+////
+////
+//        afisare(v);
+
+        //   System.out.println(nrElementeComune(vector1,vector2));
+
+
+        play();
 
     }
 }
